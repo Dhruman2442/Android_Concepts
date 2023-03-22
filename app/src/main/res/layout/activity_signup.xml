@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<EditText
+				android:id="@+id/username"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:hint="Username"
+				android:padding="10dp"
+				android:textSize="17sp"></EditText>
+
+
+			<EditText
+				android:id="@+id/number"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:hint="Contact Number"
+				android:padding="10dp"
+				android:textSize="17sp"></EditText>
+
+			<EditText
+				android:id="@+id/email"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:hint="Email"
+				android:padding="10dp"
+				android:textSize="17sp"></EditText>
+
+
+			<EditText
+				android:id="@+id/password"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:hint="Password"
+				android:padding="10dp"
+				android:textSize="17sp"></EditText>
+
+			<RadioGroup
+				android:id="@+id/gender_signup"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:orientation="horizontal">
+
+
+				<RadioButton
+					android:checked="true"
+					android:id="@+id/male"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="10dp"
+					android:text="Male"
+					android:textSize="17sp"></RadioButton>
+
+				<RadioButton
+					android:id="@+id/female"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Female"
+					android:textSize="17sp"></RadioButton>
+
+			</RadioGroup>
+
+			<CheckBox
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Accept terms and condition"
+				android:textSize="17sp"></CheckBox>
+
+			<Button
+				android:id="@+id/signup"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="30dp"
+				android:background="@drawable/blue"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Signup pass data with intent"
+				android:textColor="@color/white"
+				android:textSize="17sp"></Button>
+
+			<Button
+				android:id="@+id/signup_sharedpref"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="30dp"
+				android:background="@drawable/blue"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Signup with sharedpref"
+				android:textColor="@color/white"
+				android:textSize="17sp"></Button>
+
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

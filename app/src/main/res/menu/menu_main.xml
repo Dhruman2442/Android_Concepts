@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.example.legalhelpin.Activity.MainActivity">
+
+	<item
+		android:icon="@drawable/logo"
+		android:id="@+id/profile"
+		android:orderInCategory="100"
+		android:title="Profile"
+		app:showAsAction="never" />
+
+	<item
+		android:icon="@drawable/logo"
+		android:id="@+id/changepassword"
+		android:orderInCategory="100"
+		android:title="Change password"
+		app:showAsAction="never" />
+
+	<item
+		android:icon="@drawable/logo"
+
+		android:id="@+id/logout1"
+		android:orderInCategory="100"
+		android:title="Logout"
+		app:showAsAction="never" />
+
+	<item
+		android:icon="@drawable/logo"
+
+		android:id="@+id/logout2"
+		android:orderInCategory="100"
+		android:title="Logout"
+		app:showAsAction="never" />
+
+	<item
+		android:icon="@drawable/logo"
+
+		android:id="@+id/logout3"
+		android:orderInCategory="100"
+		android:title="Logout"
+		app:showAsAction="never" />
+</menu>

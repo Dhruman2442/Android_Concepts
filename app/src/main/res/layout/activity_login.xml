@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<ImageView
+				android:layout_margin="20dp"
+				android:layout_gravity="center"
+				android:src="@drawable/logo_main"
+				android:layout_width="100dp"
+				android:layout_height="100dp">
+			</ImageView>
+
+
+			<EditText
+				android:id="@+id/number"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:fontFamily="@font/now_regular"
+				android:gravity="center"
+				android:hint="Number"
+				android:padding="10dp"
+				android:text="hemal@gmail.com"
+				android:textSize="17sp"></EditText>
+
+
+			<EditText
+				android:id="@+id/password"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:fontFamily="@font/now_regular"
+				android:hint="Password"
+				android:padding="10dp"
+				android:text="Hemal123"
+				android:textSize="17sp"></EditText>
+
+
+			<Button
+				android:id="@+id/login"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="30dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Login"
+				android:textColor="@color/white"
+				android:textSize="17sp"></Button>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/now_regular"
+				android:padding="10dp"
+				android:text="User number : 8460170386 and password : 123456 for login with api"
+				android:textColor="@color/black"
+				android:textSize="17sp"></TextView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

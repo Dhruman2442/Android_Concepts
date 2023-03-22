@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/four">
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:padding="@dimen/_10sdp"
+		android:text="Login Screen"
+		android:textColor="@color/white"
+		android:textSize="20dp"
+		android:textStyle="bold"></TextView>
+
+	<TextView
+		android:id="@+id/title2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:layout_toRightOf="@id/title"
+		android:padding="@dimen/_10sdp"
+		android:text="Login Screen"
+		android:textColor="@color/white"
+		android:textSize="20dp"
+		android:textStyle="bold"></TextView>
+
+	<EditText
+		android:id="@+id/username"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/title"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="20dp"
+		android:hint="Enter Username"
+		android:padding="10dp"
+		android:textColorHint="@color/white"></EditText>
+
+	<EditText
+		android:id="@+id/password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/username"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="20dp"
+		android:hint="Enter Password"
+		android:padding="10dp"
+		android:textColorHint="@color/white">
+	</EditText>
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/password"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="20dp"
+		android:padding="10dp"
+		android:text="Click Here Or Login"></Button>
+
+	<TextView
+		android:id="@+id/account"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/button"
+		android:layout_margin="20dp"
+		android:padding="10dp"
+		android:text="Dont have an account ?"
+		android:textColor="@color/white"
+		android:textSize="20dp">
+
+
+	</TextView>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/account"
+		android:layout_margin="20dp"
+		android:padding="10dp"
+		android:text="Forgot Password ?"
+		android:textColor="@color/white"
+		android:textSize="20dp">
+
+
+	</TextView>
+</RelativeLayout>

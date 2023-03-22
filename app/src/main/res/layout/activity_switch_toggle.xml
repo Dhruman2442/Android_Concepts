@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<TextClock
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:textSize="20dp"
+		android:id="@+id/textClock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:format12Hour="hh:mm:ss a" />
+
+
+	<Switch
+		android:id="@+id/simpleSwitch1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:checked="false"
+		android:text="switch 1"
+		android:textOff="Off"
+		android:textOn="On" />
+
+	<Switch
+		android:id="@+id/simpleSwitch2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:checked="true"
+		android:text="switch 2"
+		android:textOff="Off"
+		android:textOn="On" />
+
+	<Button
+		android:id="@+id/submitButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="50dp"
+		android:background="#009284"
+		android:padding="10dp"
+		android:text="Submit"
+		android:textColor="#fff"
+		android:textStyle="bold" />
+
+	<ToggleButton
+		android:layout_gravity="center"
+		android:id="@+id/toggle1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:checked="true"
+		android:textOff="OFF"
+		android:textOn="ON"/>
+	<ToggleButton
+		android:layout_gravity="center"
+		android:id="@+id/toggle2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/toggle1"
+		android:layout_toRightOf="@+id/toggle1"
+		android:textOff="OFF"
+		android:textOn ="ON"/>
+
+	<Button
+		android:id="@+id/getBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="Submit" />
+
+	<SeekBar
+		android:layout_marginTop="10dp"
+		android:id="@+id/simpleSeekBar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

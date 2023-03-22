@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<Button
+				android:id="@+id/practical1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Signup , intent data pass , Sharedpref"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/practical2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Practical 2"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="gone"></Button>
+
+			<Button
+				android:id="@+id/practical3"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Recycleview , popup menu"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/practical4"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Practical 4"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="gone"></Button>
+
+			<Button
+				android:id="@+id/practical5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Sqlite database"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/sqlite_recycle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Sqlite Recycle"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+			<Button
+				android:id="@+id/practical6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Practical 6"
+				android:textAllCaps="false"
+
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="gone"></Button>
+
+			<Button
+				android:id="@+id/practical7"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Animation"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+
+			<Button
+				android:id="@+id/practical9"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Login api"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/practical10"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Practical 10"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="gone"></Button>
+
+			<Button
+				android:id="@+id/practical11"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Fragment"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/practical12"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Tabhost"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/practical13"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Viewpager"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/list_button"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Listview"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/webview"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="WEbview"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/drawer"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Navigation drawer"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+
+			<Button
+				android:id="@+id/dialog"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Dialog"
+				android:onClick="gotoLeavegroup"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/imageick"
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Imagepicker"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/bluetooth"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Bluetooth"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+
+			<Button
+				android:id="@+id/wifi"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="wifi"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/email"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Email"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/phone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Phone"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+
+			<Button
+				android:id="@+id/sms"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="sms"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/notification"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="notification"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+
+			<Button
+				android:id="@+id/switchdata"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Switch toggle ratingbar seekbar"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+
+			<Button
+				android:id="@+id/audio"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="10dp"
+				android:background="@drawable/roundwhite_greenshade"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="Audio"
+				android:textAllCaps="false"
+				android:textColor="@color/white"
+				android:textSize="15sp"></Button>
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/layout_new_mr"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	android:orientation="vertical"
+
+	android:windowSoftInputMode="adjustResize">
+
+
+
+
+
+		<LinearLayout
+			android:padding="30sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/avenir_regular"
+				android:gravity="center"
+				android:padding="5dp"
+				android:text="Are you sure you want to Leave this group ?"
+				android:textColor="@color/black"
+				android:textSize="17sp" />
+
+
+
+
+		</LinearLayout>
+
+
+	<RelativeLayout
+		android:background="@color/greenshade"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<LinearLayout
+		android:background="@color/white"
+		android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/yes"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/avenir_regular"
+			android:gravity="center"
+			android:padding="5dp"
+			android:text="Yes"
+			android:textColor="@color/black"
+			android:textSize="17sp" />
+
+		<RelativeLayout
+			android:background="@color/greenshade"
+			android:layout_width="1dp"
+			android:layout_height="match_parent"/>
+
+		<TextView
+			android:id="@+id/no"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/avenir_regular"
+			android:gravity="center"
+			android:padding="5dp"
+			android:text="No"
+			android:textColor="@color/black"
+			android:textSize="17sp" />
+
+	</LinearLayout>
+
+</LinearLayout>

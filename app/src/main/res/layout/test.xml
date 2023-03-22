@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/four"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:padding="@dimen/_10sdp"
+		android:textColor="@color/white"
+		android:text="Login Screen"
+		android:textStyle="bold"
+		android:textSize="20dp">
+
+
+	</TextView>
+
+	<EditText
+		android:textColorHint="@color/white"
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Enter Username">
+
+
+	</EditText>
+
+	<EditText
+		android:textColorHint="@color/white"
+
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Enter Password">
+
+
+	</EditText>
+
+	<Button
+
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Click Here Or Login"></Button>
+
+	<TextView
+		android:textColor="@color/white"
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Dont have an account ?"
+		android:textSize="20dp">
+
+
+	</TextView>
+
+	<TextView
+		android:textColor="@color/white"
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Forgot Password ?"
+		android:textSize="20dp">
+
+
+	</TextView>
+</LinearLayout>
